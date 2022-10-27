@@ -1,0 +1,27 @@
+
+
+
+CREATE TABLE  `course` (
+  `Course_ID` varchar(10) NOT NULL,
+  `Course_Name` varchar(100)  DEFAULT NULL,
+  `Credit` varchar(50) DEFAULT NULL,
+  `Duration`  varchar(50)  DEFAULT NULL,
+  `Intructors` varchar(50)  DEFAULT NULL
+ 
+
+--
+-- Dumping data for table `sinhvien`
+--
+
+INSERT INTO `course` (`Course_ID`, `Course_Name`, `Credit`, `Duration`, `Intructors`) VALUES
+('1', 'Cơ sở lập trình', '4', '50', 'Mr.Thọ, Mr.Đăng '),
+('2', 'Cơ sở dữ liệu', '3', '55', 'Mr.Kiên'),
+('3', 'OOP', '4', '60', 'Mr.Thắng'),
+('4', 'Cấu trúc dữ liệu và giải thuật', '32', '55', 'Mr.Đăng'),
+('5', 'Hệ quản trị cơ sở dữ liệu', '10', '50', 'Mr.Thắng,Mr.Đăng'),
+('6', 'Lập trình web', '3', '60', 'Mr.Thọ'),
+('7', 'Thiết kế web', '15', '50', 'Mr.Thắng'),
+;
+
+;
+
